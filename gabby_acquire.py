@@ -22,9 +22,10 @@ def get_connection(db, user=user, host=host, password=password):
 
 
 sql_query = '''
-            SELECT properties_2017.parcelid, properties_2017.id, bathroomcnt, bedroomcnt, calculatedbathnbr, calculatedfinishedsquarefeet, fips, latitude, longitude, regionidcounty, roomcnt, yearbuilt, taxvaluedollarcnt, assessmentyear, propertycountylandusecode, propertylandusetypeid
+            SELECT properties_2017.parcelid, properties_2017.id, bathroomcnt, bedroomcnt, calculatedbathnbr, calculatedfinishedsquarefeet, fips, latitude, longitude, regionidcounty, roomcnt, yearbuilt, taxvaluedollarcnt, taxamount, assessmentyear, propertycountylandusecode, propertylandusetypeid, transactiondate
+
             FROM properties_2017
-            JOIN predictions_2017 ON properties_2017.parcelid = predictions_2017.parcelid
+            5JOIN predictions_2017 ON properties_2017.parcelid = predictions_2017.parcelid
             WHERE transactiondate BETWEEN '2017-05-01' AND '2017-06-30'
             AND propertylandusetypeid = '261' OR '262' OR '263' OR '264' OR '268' OR '273' OR '274' OR '275' OR '276' OR '279';
             
