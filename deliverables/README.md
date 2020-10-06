@@ -2,7 +2,7 @@ This repository is where the final versions of the project's deliverables will b
 
 Note to self: Update this README later with the final version.
 
-<h1 style= 'font: chalkduster'> Regression Project: Estimating Home Value </h1>
+<h1 style= 'font: chalkduster'>Zillow Regression Project: Estimating Home Value </h1>
 <h2> About the project</h2>
 <h3>Goals</h3>
 Kwame and Gabby want to predict the values of single unit properties that the tax district assesses using the property data from those whose last transaction was during the peak real estate demand months of May and June 2017.
