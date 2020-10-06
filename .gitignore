@@ -1,0 +1,14 @@
+dictionary.txt
+secrets.txt
+solutions.py
+*.json
+*.xlsx
+env.py
+.ipynb_checkpoints/
+__pycache__
+.DS_Store
+Thumbs.db
+.vscode/
+*.csv
+titanic.csv
+iris.csv
