@@ -2,12 +2,12 @@
 
 
 
-About the project
-Goals
-Kwame and Gabby want to predict the values of single unit properties that the tax district assesses using the property data from those whose last transaction was during the peak real estate demand months of May and June 2017. 
+<h2> About the project</h2><br>
+<h3>Goals</h3><br><br>
+Kwame and Gabby want to predict the values of single unit properties that the tax district assesses using the property data from those whose last transaction was during the peak real estate demand months of May and June 2017. <br><br><br><br>
 
 
-Data Dictionary
+<h3> Data Dictionary</h3><br><br>
 co-op: A unit of a housing co-operative; a purchased apartment where the apartment owners collectively are responsible for maintenance of common areas and upkeep.<br>
 Logistic Regression: A regression algorithm used to predict discrete outcomes.<br>
 Decision Tree: A sequence of rules that can be used to classify 2 or more classes using supervised machine learning processes.<br>
@@ -28,10 +28,10 @@ Root Mean Squared Error (RMSE): Simply take the square root of the MSE. Used to 
 Select the K best: features using a statistical test to compare each X with y and find which X's have the strongest relationship with y.<br>
 Recursive Feature Elimination: Creates a model with all the features, evaluates the performance metrics, find the weakest feature, removes it, then creates a new model with the remaining features, evaluate the performance metrics, find the weakest feature, remove it, and so on, until it gets down to the number of features indicated when creating the rfe object.<br>
 Regression: Asupervised machine learning technique used to model the relationships between one (simple) or more (multiple) features (independent) and how they contribute to one (univariate) or more (multivariate) target variables (dependent), represented by a continuous variable. <br>
+<br><br><br>
 
 
-
-Hypothesis Testing
+<h3>Hypothesis Testing </h3>
 Hypothesis Testing
 First Hypothesis 𝐻0 : Lot square footage has no effect on the property values.
 𝐻𝑎 : Lot square footage has an effect on the property values.<br><br>
@@ -41,7 +41,7 @@ Second Hypothesis
 
 
 
-Data Science Pipeline Used
+<h3>Data Science Pipeline Used</h3>
 acquire.py
 acquire data from csv gathered from sql.
 prepare.py
@@ -65,13 +65,10 @@ next steps
 how to run with new data.
 
 
+<h3>Conclusion</h3>
+Conclusion to be added here.
 
 
-Conclusion
-Customers without dependents, on month to month contracts and who have additional features are more likely to churn. Through analyzing the data, we have found that the customers who churn are paying more. This can be explained by the additional features that many customers have. Next steps would be to find out which specific features cost the most and cause the highest churn. My recommendation to retain customers would be to investigate offering bundle deals and having customers sign contracts to reduce the churn with the company.
 
-How to reproduce the results
+<h3>How to reproduce the results</h3>
 You may download acquire.py and prepare.py. You will need your own env.py file with your SQL credentials in order to access the SQL server.
-
-Organization Photo:
-Image by <a href="https://pixabay.com/users/mastersenaiper-4157718/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2323278">mastersenaiper</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2323278">Pixabay</a>
