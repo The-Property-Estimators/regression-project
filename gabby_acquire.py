@@ -18,24 +18,22 @@ def get_connection(db, user=user, host=host, password=password):
     return f'mysql+pymysql://{user}:{password}@{host}/{db}'
 
 
-# In[14]:
+# In[20]:
 
 
 sql_query = '''
-            SELECT properties_2017.parcelid, properties_2017.id, bathroomcnt, bedroomcnt, calculatedbathnbr, calculatedfinishedsquarefeet, fips, latitude, longitude, regionidcounty, roomcnt, yearbuilt, taxvaluedollarcnt, taxamount, assessmentyear, propertycountylandusecode, propertylandusetypeid, transactiondate
-
+ SELECT properties_2017.parcelid, properties_2017.id, bathroomcnt, bedroomcnt, calculatedbathnbr, calculatedfinishedsquarefeet, fips, latitude, longitude, regionidcounty, roomcnt, yearbuilt, taxvaluedollarcnt, taxamount, assessmentyear, propertycountylandusecode, propertylandusetypeid, transactiondate
             FROM properties_2017
-            5JOIN predictions_2017 ON properties_2017.parcelid = predictions_2017.parcelid
+            JOIN predictions_2017 ON properties_2017.parcelid = predictions_2017.parcelid
             WHERE transactiondate BETWEEN '2017-05-01' AND '2017-06-30'
             AND propertylandusetypeid = '261' OR '262' OR '263' OR '264' OR '268' OR '273' OR '274' OR '275' OR '276' OR '279';
-            
             '''
 df = pd.read_sql(sql_query, get_connection('zillow'))
 df.to_csv('zillow_df.csv')
 df.info()
 
 
-# In[15]:
+# In[22]:
 
 
 def get_zillow_data():
@@ -44,7 +42,12 @@ def get_zillow_data():
         return pd.read_csv(filename)
     else:
         # read the SQL query into a dataframe
-        df = pd.read_sql('''SELECT properties_2017.parcelid, properties_2017.id, bathroomcnt, bedroomcnt, calculatedbathnbr, calculatedfinishedsquarefeet, fips, latitude, longitude, regionidcounty, roomcnt, yearbuilt, taxvaluedollarcnt, assessmentyear, propertycountylandusecode, propertylandusetypeid FROM properties_2017 JOIN predictions_2017 ON properties_2017.parcelid = predictions_2017.parcelid WHERE transactiondate BETWEEN '2017-05-01' AND '2017-06-30' AND propertylandusetypeid = '261' OR '262' OR '263' OR '264' OR '268' OR '273' OR '274' OR '275' OR '276' OR '279';''', get_connection('zillow'))
+        df = pd.read_sql('''SELECT properties_2017.parcelid, properties_2017.id, bathroomcnt, bedroomcnt, calculatedbathnbr, calculatedfinishedsquarefeet, fips, latitude, longitude, regionidcounty, roomcnt, yearbuilt, taxvaluedollarcnt, taxamount, assessmentyear, propertycountylandusecode, propertylandusetypeid, transactiondate
+            FROM properties_2017
+            JOIN predictions_2017 ON properties_2017.parcelid = predictions_2017.parcelid
+            WHERE transactiondate BETWEEN '2017-05-01' AND '2017-06-30'
+            AND propertylandusetypeid = '261' OR '262' OR '263' OR '264' OR '268' OR '273' OR '274' OR '275' OR '276' OR '279';
+            ''', get_connection('zillow'))
         # Write that dataframe to disk for later. Called "caching" the data for later.
         df.to_file(filename)
 
