@@ -42,22 +42,24 @@ Second Hypothesis
 
 
 <h3>Data Science Pipeline Used</h3>
-acquire.py
-acquire data from csv gathered from sql.
-prepare.py
-address missing data
-address outliers
-split into train, validate, test
-explore
-plot correlation matrix of all variables
-test each hypothesis
-model
-try different algorithms: decision tree, logistic regression, random forest,knn
-which features are most influential?
-evaluate on train
-select top 3 +/- models to evaluate on validate
-select top model
-run model on test to verify.
+acquire.py <br>
+acquire data from csv gathered from sql. <br>
+prepare.py <br>
+address missing data <br>
+address outliers <br>
+scale numeric data <br>
+split into train, validate, test <br>
+explore <br>
+plot correlation matrix of all variables<br>
+test each hypothesis<br>
+model<br>
+feature engineering to construct new features <br>
+try different algorithms: Feature Elimination, Multiple Linear Regression Model, Polynomial Regression Model, Baseline Model
+which features are most influential?<br>
+evaluate on train<br>
+select top 3 +/- models to evaluate on validate<br>
+select top model<br>
+run model on test to verify.<br>
 conclusion
 summarize findings
 make recommendations
