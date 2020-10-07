@@ -18,12 +18,16 @@ def get_zillow_data():
                 '''
     filename = "zillow_df.csv"
     if os.path.isfile(filename):
-        return pd.read_csv(filename)
+        df = pd.read_csv(filename)
+        #drop second index column
+        df = df.drop(columns=['Unnamed: 0'])
+        return df
     else:
         # read the SQL query into a dataframe
         df = pd.read_sql(sql_query, get_connection('zillow'))
+        #drop second index column
+        df = df.drop(columns=['Unnamed: 0'])
         # Write that dataframe to disk for later. Called "caching" the data for later.
         df.to_file(filename)
-
         # Return the dataframe to the calling code
         return df  
