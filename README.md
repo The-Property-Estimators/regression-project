@@ -40,13 +40,16 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 <br><br><br>
 
 
-<h3>Hypothesis Testing </h3>
-First Hypothesis<br>
-𝐻0 : Lot square footage has no effect on the property values.<br>
-𝐻𝑎 : Lot square footage has an effect on the property values.<br><br>
-Second Hypothesis<br>
-𝐻0 : There is no difference in property values between properties with last the transaction in May 2017 and June 2017.<br>
-𝐻𝑎 : There is a difference in property values between properties with last the transaction in May 2017 and June 2017.<br><br><br>
+<h3>Hypothesis Testing </h3><br><br>
+
+First Hypothesis<br><br>
+$H_0$: Bathroom has no correlation on the tax value.<br>
+$H_a$: Bathroom has a correlation with the tax value.<br>
+
+Second Hypothesis<br><br>
+
+𝐻0 : There is no correlation btween finished square feet and tax value.<br>
+𝐻𝑎 : There is a correlation between finished square feet and tax value.<br><br><br>
 
 
 
