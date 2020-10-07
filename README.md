@@ -3,10 +3,12 @@
 
 
 <h2> About the project</h2><br>
-<h3>Goals</h3><br><br>
+<h3>Background</h3><br><br>
 Kwame and Gabby want to predict the values of single unit properties that the tax district assesses using the property data from those whose last transaction was during the peak real estate demand months of May and June 2017. <br><br><br><br>
-
-
+<h3>Goals</h3>
+<ol>
+<li>Gabby and Kwame want to present to the Zillow Team regarding the findings and prediction models about the drivers of the single unit property values.</li>
+<li> Kwame and Gabby want to produce deliverables [] so that people who are interested in the data and those who want to verify the validity of their findings may do so.</li><br><br><br>
 <h3> Data Dictionary</h3><br><br>
 co-op: A unit of a housing co-operative; a purchased apartment where the apartment owners collectively are responsible for maintenance of common areas and upkeep.<br>
 Logistic Regression: A regression algorithm used to predict discrete outcomes.<br>
@@ -32,11 +34,10 @@ Regression: Asupervised machine learning technique used to model the relationshi
 
 
 <h3>Hypothesis Testing </h3>
-Hypothesis Testing
-First Hypothesis 𝐻0 : Lot square footage has no effect on the property values.
+First Hypothesis 𝐻0 : Lot square footage has no effect on the property values.<br>
 𝐻𝑎 : Lot square footage has an effect on the property values.<br><br>
 Second Hypothesis
-𝐻0 : There is no difference in property values between properties with last the transaction in May 2017 and June 2017.
+𝐻0 : There is no difference in property values between properties with last the transaction in May 2017 and June 2017.<br>
 𝐻𝑎 : There is a higher property value for properties with a last transaction in May 2017. 
 
 
