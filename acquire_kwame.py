@@ -25,11 +25,8 @@ def get_zillow_data():
     else:
         # read the SQL query into a dataframe
         df = pd.read_sql(sql_query, get_connection('zillow'))
-<<<<<<< HEAD
-=======
-        #drop second index column
->>>>>>> 75eb4e0df3018636077b48f3ae48b40ad47862f4
+        
         # Write that dataframe to disk for later. Called "caching" the data for later.
-        df.to_file(filename)
+        df.to_csv(filename)
         # Return the dataframe to the calling code
-        return df  
+        return df
