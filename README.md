@@ -34,10 +34,10 @@ Regression: Asupervised machine learning technique used to model the relationshi
 
 
 <h3>Hypothesis Testing </h3>
-First Hypothesis 𝐻0 : Lot square footage has no effect on the property values.
+First Hypothesis 𝐻0 : Lot square footage has no effect on the property values.<br>
 𝐻𝑎 : Lot square footage has an effect on the property values.<br><br>
 Second Hypothesis
-𝐻0 : There is no difference in property values between properties with last the transaction in May 2017 and June 2017.
+𝐻0 : There is no difference in property values between properties with last the transaction in May 2017 and June 2017.<br>
 𝐻𝑎 : There is a higher property value for properties with a last transaction in May 2017. 
 
 
