@@ -10,5 +10,4 @@ __pycache__
 Thumbs.db
 .vscode/
 *.csv
-titanic.csv
-iris.csv
+aquire_kwame_mvp.ipynb
