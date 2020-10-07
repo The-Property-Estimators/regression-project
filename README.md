@@ -4,7 +4,7 @@
 
 <h2> About the project</h2><br>
 <h3>Background</h3><br><br>
-Kwame and Gabby want to predict the values of single unit properties that the tax district assesses using the property data from those whose last transaction was during the peak real estate demand months of May and June 2017. <br><br><br><br>
+Kwame and Gabby want to predict the values of single unit properties that the tax district assessments using the property data from those whose last transaction was during the peak real estate demand months of May and June 2017. <br><br><br><br>
 
 
 <h3>Goals</h3>
@@ -41,11 +41,12 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 
 
 <h3>Hypothesis Testing </h3>
-First Hypothesis 𝐻0 : Lot square footage has no effect on the property values.<br>
+First Hypothesis<br>
+𝐻0 : Lot square footage has no effect on the property values.<br>
 𝐻𝑎 : Lot square footage has an effect on the property values.<br><br>
-Second Hypothesis
+Second Hypothesis<br>
 𝐻0 : There is no difference in property values between properties with last the transaction in May 2017 and June 2017.<br>
-𝐻𝑎 : There is a higher property value for properties with a last transaction in May 2017. 
+𝐻𝑎 : There is a difference in property values between properties with last the transaction in May 2017 and June 2017.<br><br><br>
 
 
 
