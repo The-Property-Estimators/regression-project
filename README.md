@@ -50,14 +50,17 @@ Second Hypothesis
 <h3>Data Science Pipeline Used</h3>
 <b><u>acquire.py </b></u> <br>
 acquire data from csv gathered from sql. <br><br>
-prepare.py </b></u> <br>
+
+<b><u> prepare.py </b></u> <br>
 address missing data <br>
 address outliers <br>
 scale numeric data <br>
 split into train, validate, test <br><br>
+
 <b><u>explore </b></u> <br>
 plot correlation matrix of all variables<br>
 test each hypothesis<br><br>
+
 <b><u>model</b></u> <br>
 feature engineering to construct new features <br>
 try different algorithms: Feature Elimination, Multiple Linear Regression Model, Polynomial Regression Model, Baseline Model
