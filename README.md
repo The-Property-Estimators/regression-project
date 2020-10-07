@@ -31,9 +31,11 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 <b><u>Residual: </b></u> The difference between the observed value and the estimated value.<br>
 <b><u>Sum of the Squared Errors (SSE): </b></u> Also known as, RSS, Residual Sum of Squares will be used as the final metric to evaluate. The value of the SSE is derived by simply squaring each of the errors computed in step one and summing them all together<br>
 <b><u>Mean Squared Error (MSE): </b></u> The average of the errors that have each been squared.<br>
+
 <b><u>Root Mean Squared Error (RMSE): </b></u> Simply take the square root of the MSE. Used to see the error in the actual units of the y variable.<br>
-<b><u>Select the K best: features using a statistical test to compare each X with y and find which X's have the strongest relationship with y.<br>
+<b><u>Select the K best:</b></u>  features using a statistical test to compare each X with y and find which X's have the strongest relationship with y.<br>
 <b><u>Recursive Feature Elimination: </b></u> Creates a model with all the features, evaluates the performance metrics, find the weakest feature, removes it, then creates a new model with the remaining features, evaluate the performance metrics, find the weakest feature, remove it, and so on, until it gets down to the number of features indicated when creating the rfe object.<br>
+  
 <b><u>Regression: </b></u> Asupervised machine learning technique used to model the relationships between one (simple) or more (multiple) features (independent) and how they contribute to one (univariate) or more (multivariate) target variables (dependent), represented by a continuous variable. <br>
 <br><br><br>
 
