@@ -1,3 +1,5 @@
+<h3>Kwame and Gabby, Codeup Darden Cohort, Oct 2020</h3>
+
 <h1 style= 'font: chalkduster'> Regression Project: Estimating Home Value </h1>
 
 <h2> About the project</h2>
