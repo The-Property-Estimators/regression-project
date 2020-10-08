@@ -43,6 +43,16 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 
 <h3>Hypothesis Testing </h3><br><br>
 
+$
+\begin{align*}
+   H_0 & : \text{Churn and cohorts identified by tenure are independent of each other.}
+   \\
+   H_a & : \text{Churn and cohorts identified by tenure are not independent of each other.}
+   \\
+    \alpha & : \text{0.05}
+\end{align*}
+$
+
 First Hypothesis<br><br>
 $H_0$: The number of bathrooms has no correlation on the tax estimated property value.<br>
 $H_a$: The number of bathrooms has a correlation with the tax estimated property value.<br>
