@@ -10,7 +10,7 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 <h3>Goals</h3>
 <ol>
 <li>Gabby and Kwame want to present to the Zillow Team regarding the findings and prediction models about the drivers of the single unit property values.</li>
-<li> Kwame and Gabby want to produce deliverables acquire.py and prepare.py so that people who are interested in the data and those who want to verify the validity of their findings may do so.</li><br><br><br>
+<li> Kwame and Gabby want to produce deliverables acquire.py, prepare.py, explore.py and model.py so that people who are interested in the data and those who want to verify the validity of their findings may do so.</li><br><br><br>
   
   
 <h3> Data Dictionary</h3><br><br>
