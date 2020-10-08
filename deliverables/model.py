@@ -15,7 +15,7 @@ from sklearn.model_selection import train_test_split
 from acquire_kwame import get_zillow_data
 from prepare_kwame import prepare_zillow
 
-def model()
+def run()
     df, train, validate, test, X_train, X_validate, X_test, y_train, y_validate, y_test = prepare_zillow()
 
     sns.distplot(y_train)
