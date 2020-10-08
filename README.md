@@ -2,7 +2,7 @@
 
 <h1 style= 'font: chalkduster'> Regression Project: Estimating Home Value </h1>
 
-<img src="https://www.vhv.rs/dpng/d/483-4839500_zillow-group-logo-png-zillow-group-logo-transparent.png">
+<img src="https://www.underconsideration.com/brandnew/archives/zillow_logo.png">
 
 <h2> About the project</h2>
 <h3>Background</h3>
