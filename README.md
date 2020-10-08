@@ -86,7 +86,7 @@ Second Hypothesis<br>
 
 
 <h3>Conclusion</h3>
-The conclusions of the hypotheses tests are Since p is less than α, we reject our null hypothesis that bathroom has no effect on the tax estimated property value and that since p is less than α, we reject our null hypothesis that there is no correlation between finished square feet and tax estimated property value. <br>
+The conclusions of the hypotheses tests are Since p is less than α, we reject our null hypothesis that bathroom has no effect on the tax estimated property value and that since p is less than α, we reject our null hypothesis that there is no correlation between finished square feet and tax estimated property value. <br><br>
 Initially we found that bathroom count has a slightly stronger correlation with tax property value assessments but upon further modeling found that bedroom count and bath/bedroom count have a higher correlation.<br>
 Further exploration and modeling can be done to assess differences is estimated prices  in counties, between lot sizes and between the two months of May and June 2017.<br>
 
