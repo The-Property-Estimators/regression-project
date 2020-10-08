@@ -14,12 +14,8 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
   
   
 <h3> Data Dictionary</h3><br><br>
-|   	|   	|   	|   	|   	|
-|---	|---	|---	|---	|---	|
-|CO-OP   	| A unit of a housing co-operative; a purchased apartment where the apartment owners collectively are responsible for maintenance of common areas and upkeep.  	|   	|   	|   	|
-|   	|   	|   	|   	|   	|
-|   	|   	|   	|   	|   	|
-<b><u></b></u> A unit of a housing co-operative; a purchased apartment where the apartment owners collectively are responsible for maintenance of common areas and upkeep.<br>
+
+<b><u>Co-Op:</b></u> A unit of a housing co-operative; a purchased apartment where the apartment owners collectively are responsible for maintenance of common areas and upkeep.<br>
 <b><u>Single Unit Property:</b></u>The term housing unit refers to a single unit within a larger structure that can be used by an individual or household to eat, sleep, and live. The unit can be in any type of residence such as a house, apartment, mobile home, or may also be a single unit in a group of rooms.
 <b><u>Logistic Regression: </b></u>  A regression algorithm used to predict discrete outcomes.<br>
 <b><u>Decision Tree: </b></u> A sequence of rules that can be used to classify 2 or more classes using supervised machine learning processes.<br>
