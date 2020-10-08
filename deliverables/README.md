@@ -1,7 +1,5 @@
 This repository is where the final versions of the project's deliverables will be housed.
 
-Note to self: Update this README later with the final/longer version.
-
 <h1 style= 'font: chalkduster'>Zillow Regression Project: Estimating Home Value </h1>
 <h4> - Kwame and Gabby, Codeup Darden Cohort</h4>
 <h2> About the project</h2>
