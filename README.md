@@ -43,13 +43,13 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 <h3>Hypothesis Testing </h3><br><br>
 
 First Hypothesis<br><br>
-$H_0$: Bathroom has no correlation on the tax value.<br>
-$H_a$: Bathroom has a correlation with the tax value.<br>
+$H_0$: The number of bathrooms has no correlation on the tax estimated property value.<br>
+$H_a$: The number of bathrooms has a correlation with the tax estimated property value.<br>
 
 Second Hypothesis<br><br>
+$H_0$: There is no correlation between finished square feet and tax estimated property value.<br>
+$H_a$: There is a correlation between finished square feet and tax estimated property value.<br>
 
-𝐻0 : There is no correlation btween finished square feet and tax value.<br>
-𝐻𝑎 : There is a correlation between finished square feet and tax value.<br><br><br>
 
 
 
@@ -83,7 +83,7 @@ how to run with new data.
 
 
 <h3>Conclusion</h3>
-Conclusion to be added here.
+The conclusions of the hypotheses tests are Since p is less than α, we reject our null hypothesis that bathroom has no effect on the tax estimated property value and that since p is less than α, we reject our null hypothesis that there is no correlation between finished square feet and tax estimated property value.
 
 
 
