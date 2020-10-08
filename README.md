@@ -19,6 +19,115 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
   
 <h3> Data Dictionary</h3>
 
+
+
+
+
+
+
+<table>
+<thead>
+  <tr>
+    <th>Term</th>
+    <th>Definition</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Co-Op</td>
+    <td>A unit of a housing co-operative; a purchased apartment where the apartment owners collectively are responsible for maintenance of common areas and upkeep.</td>
+  </tr>
+  <tr>
+    <td>Single Unit Property</td>
+    <td>The term housing unit refers to a single unit within a larger structure that can be used by an individual or household to eat, sleep, and live. The unit can be in any type of residence such as a house, apartment, mobile home, or may also be a single unit in a group of rooms.</td>
+  </tr>
+  <tr>
+    <td>Logistic Regression</td>
+    <td>A regression algorithm used to predict discrete outcomes.</td>
+  </tr>
+  <tr>
+    <td>Decision Tree</td>
+    <td>A sequence of rules that can be used to classify 2 or more classes using supervised machine learning processes.</td>
+  </tr>
+  <tr>
+    <td>Random Forest</td>
+    <td>A learning method that constructs a multitude of decision trees at training time and outputting the classification.</td>
+  </tr>
+  <tr>
+    <td>K-Nearest Neighbor (KNN)</td>
+    <td>A lazy algorithm in that it does not attempt to construct a general internal model, but simply stores instances of the training data. Classification is computed from a simple majority vote of the k nearest neighbours of each point. Makes predictions based on how close a new data point is to known data points.</td>
+  </tr>
+  <tr>
+    <td>Precision</td>
+    <td>the higher this number is, the more you were able to pinpoint all positives correctly. If this is a low score, you predicted a lot of positives where there were none. tp / (tp + fp)</td>
+  </tr>
+  <tr>
+    <td>Recall</td>
+    <td>If this score is high, you didn’t miss a lot of positives. But as it gets lower, you are not predicting the positives that are actually there. tp / (tp + fn)</td>
+  </tr>
+  <tr>
+    <td>f1-score</td>
+    <td>The balanced harmonic mean of Recall and Precision, giving both metrics equal weight. The higher the F-Measure is, the better.</td>
+  </tr>
+  <tr>
+    <td>Support</td>
+    <td>The number of occurrences of each class in where y is true.</td>
+  </tr>
+  <tr>
+    <td>Min-Max Scaling</td>
+    <td>A linear scaling method that transforms our features such that the range is between 0 and 1.</td>
+  </tr>
+  <tr>
+    <td>Standardization</td>
+    <td>A linear transformation of our data such that is looks like the standard normal distribution. That is, it will have a mean of 0 and a standard deviation of 1.</td>
+  </tr>
+  <tr>
+    <td>Regression Line</td>
+    <td>Also known as a line of best fit, a linear regression algorithm that returns the slope and y-intercept of the line that most accurately predicts y, given the x and y provided to the algorithm.</td>
+  </tr>
+  <tr>
+    <td>Baseline</td>
+    <td>Predicting the target variable without using any features. Take the mean or median value and predict all future values to be that constant value.</td>
+  </tr>
+  <tr>
+    <td>Residual</td>
+    <td>The difference between the observed value and the estimated value.</td>
+  </tr>
+  <tr>
+    <td>Sum of the Squared Errors (SSE)</td>
+    <td>Also known as, RSS, Residual Sum of Squares will be used as the final metric to evaluate. The value of the SSE is derived by simply squaring each of the errors computed in step one and summing them all together.</td>
+  </tr>
+  <tr>
+    <td>Mean Squared Error (MSE)</td>
+    <td>The average of the errors that have each been squared.</td>
+  </tr>
+  <tr>
+    <td>Root Mean Squared Error (RMSE)</td>
+    <td>Simply take the square root of the MSE. Used to see the error in the actual units of the y variable.</td>
+  </tr>
+  <tr>
+    <td>K-Best</td>
+    <td>Features using a statistical test to compare each X with y and find which X's have the strongest relationship with y.</td>
+  </tr>
+  <tr>
+    <td>Recursive Feature Elimination (RFE)</td>
+    <td>Creates a model with all the features, evaluates the performance metrics, find the weakest feature, removes it, then creates a new model with the remaining features, evaluate the performance metrics, find the weakest feature, remove it, and so on, until it gets down to the number of features indicated when creating the rfe object.</td>
+  </tr>
+  <tr>
+    <td>Regression</td>
+    <td>A supervised machine learning technique used to model the relationships between one (simple) or more (multiple) features (independent) and how they contribute to one (univariate) or more (multivariate) target variables (dependent), represented by a continuous variable.</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
 <b><u>Co-Op:</b></u> A unit of a housing co-operative; a purchased apartment where the apartment owners collectively are responsible for maintenance of common areas and upkeep.<br>
 <b><u>Single Unit Property:</b></u>The term housing unit refers to a single unit within a larger structure that can be used by an individual or household to eat, sleep, and live. The unit can be in any type of residence such as a house, apartment, mobile home, or may also be a single unit in a group of rooms.
 <b><u>Logistic Regression: </b></u>  A regression algorithm used to predict discrete outcomes.<br>
