@@ -168,8 +168,9 @@ Second Hypothesis<br>
 ---
 
 <h3>Data Science Pipeline Used</h3>
+
 <b><u>acquire.py </b></u> <br>
-* acquire data from csv gathered from sql. <br>
+ * acquire data from csv gathered from sql. <br>
 
 <b><u> prepare.py </b></u> <br>
 * address missing data <br>
