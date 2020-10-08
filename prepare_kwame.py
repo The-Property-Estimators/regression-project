@@ -8,6 +8,11 @@ from sklearn.preprocessing import LabelEncoder, OneHotEncoder, MinMaxScaler
 from acquire_kwame import get_zillow_data
 
 def prepare_zillow():
+    '''
+    This function acquires and prepares the Zillow property values data.
+    Returns df, train, validate, test, X_train, X_validate, X_test, y_train, y_validate, y_test.
+    Takes no arguments.
+    '''
     df = get_zillow_data()
 
     # Drop features to create an MVP (first iteration)
