@@ -6,12 +6,14 @@
 <h3>Background</h3>
 Kwame and Gabby want to predict the values of single unit properties that the tax district assessments using the property data from those whose last transaction was during the peak real estate demand months of May and June 2017. <br>
 
+---
 
 <h3>Goals</h3>
 <ol>
 <li>Gabby and Kwame want to present to the Zillow Team regarding the findings and prediction models about the drivers of the single unit property values.</li>
 <li> Kwame and Gabby want to produce deliverables acquire.py, prepare.py, explore.py and model.py so that people who are interested in the data and those who want to verify the validity of their findings may do so.</li><br>
   
+---
   
 <h3> Data Dictionary</h3>
 
@@ -40,6 +42,7 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 <b><u>Regression: </b></u> Asupervised machine learning technique used to model the relationships between one (simple) or more (multiple) features (independent) and how they contribute to one (univariate) or more (multivariate) target variables (dependent), represented by a continuous variable. <br>
 <br>
 
+---
 
 <h3>Hypothesis Testing </h3><br>
 
@@ -48,39 +51,38 @@ First Hypothesis<br><br>
 𝐻𝑎: The number of bathrooms has a correlation with the tax estimated property value.<br>
 
 Second Hypothesis<br>
-$H_0$: There is no correlation between finished square feet and tax estimated property value.<br>
-$H_a$: There is a correlation between finished square feet and tax estimated property value.<br>
+𝐻0: There is no correlation between finished square feet and tax estimated property value.<br>
+𝐻𝑎: There is a correlation between finished square feet and tax estimated property value.<br>
 
-
-
+---
 
 <h3>Data Science Pipeline Used</h3>
 <b><u>acquire.py </b></u> <br>
-acquire data from csv gathered from sql. <br>
+* acquire data from csv gathered from sql. <br>
 
 <b><u> prepare.py </b></u> <br>
-address missing data <br>
-address outliers <br>
-scale numeric data <br>
-split into train, validate, test <br>
+* address missing data <br>
+* address outliers <br>
+* scale numeric data <br>
+* split into train, validate, test <br>
 
 <b><u>explore </b></u> <br>
-plot correlation matrix of all variables<br>
-test each hypothesis<br>
+* plot correlation matrix of all variables<br>
+* test each hypothesis<br>
 
 <b><u>model</b></u> <br>
-feature engineering to construct new features <br>
-try different algorithms: Feature Elimination, Multiple Linear Regression Model, Polynomial Regression Model, Baseline Model
-which features are most influential?<br>
-evaluate on train<br>
-select top 3 +/- models to evaluate on validate<br>
-select top model<br>
-run model on test to verify.<br>
-conclusion
-summarize findings
-make recommendations
-next steps
-how to run with new data.
+* feature engineering to construct new features <br>
+* try different algorithms: Feature Elimination, Multiple Linear Regression Model, Polynomial Regression Model, Baseline Model
+* which features are most influential?<br>
+* evaluate on train<br>
+* select top 3 +/- models to evaluate on validate<br>
+* select top model<br>
+* run model on test to verify.<br>
+* conclusion
+* summarize findings
+* make recommendations
+* next steps
+* how to run with new data.
 
 
 <h3>Conclusion</h3>
