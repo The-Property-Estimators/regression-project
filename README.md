@@ -2,6 +2,8 @@
 
 <h1 style= 'font: chalkduster'> Regression Project: Estimating Home Value </h1>
 
+<img src="https://www.vhv.rs/dpng/d/483-4839500_zillow-group-logo-png-zillow-group-logo-transparent.png">
+
 <h2> About the project</h2>
 <h3>Background</h3>
 Kwame and Gabby want to predict the values of single unit properties that the tax district assessments using the property data from those whose last transaction was during the peak real estate demand months of May and June 2017. <br>
@@ -46,7 +48,7 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 
 <h3>Hypothesis Testing </h3><br>
 
-First Hypothesis<br><br>
+First Hypothesis<br>
 𝐻0: The number of bathrooms has no correlation on the tax estimated property value.<br>
 𝐻𝑎: The number of bathrooms has a correlation with the tax estimated property value.<br>
 
