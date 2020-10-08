@@ -2,8 +2,8 @@
 
 
 
-<h2> About the project</h2><br>
-<h3>Background</h3><br><br>
+<h2> About the project</h2>
+<h3>Background</h3><br>
 Kwame and Gabby want to predict the values of single unit properties that the tax district assessments using the property data from those whose last transaction was during the peak real estate demand months of May and June 2017. <br><br><br><br>
 
 
@@ -13,7 +13,7 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 <li> Kwame and Gabby want to produce deliverables acquire.py, prepare.py, explore.py and model.py so that people who are interested in the data and those who want to verify the validity of their findings may do so.</li><br><br><br>
   
   
-<h3> Data Dictionary</h3><br><br>
+<h3> Data Dictionary</h3><br>
 
 <b><u>Co-Op:</b></u> A unit of a housing co-operative; a purchased apartment where the apartment owners collectively are responsible for maintenance of common areas and upkeep.<br>
 <b><u>Single Unit Property:</b></u>The term housing unit refers to a single unit within a larger structure that can be used by an individual or household to eat, sleep, and live. The unit can be in any type of residence such as a house, apartment, mobile home, or may also be a single unit in a group of rooms.
@@ -38,16 +38,16 @@ Kwame and Gabby want to predict the values of single unit properties that the ta
 <b><u>Recursive Feature Elimination: </b></u> Creates a model with all the features, evaluates the performance metrics, find the weakest feature, removes it, then creates a new model with the remaining features, evaluate the performance metrics, find the weakest feature, remove it, and so on, until it gets down to the number of features indicated when creating the rfe object.<br>
   
 <b><u>Regression: </b></u> Asupervised machine learning technique used to model the relationships between one (simple) or more (multiple) features (independent) and how they contribute to one (univariate) or more (multivariate) target variables (dependent), represented by a continuous variable. <br>
-<br><br><br>
+<br>
 
 
-<h3>Hypothesis Testing </h3><br><br>
+<h3>Hypothesis Testing </h3><br>
 
 First Hypothesis<br><br>
 𝐻0: The number of bathrooms has no correlation on the tax estimated property value.<br>
 𝐻𝑎: The number of bathrooms has a correlation with the tax estimated property value.<br>
 
-Second Hypothesis<br><br>
+Second Hypothesis<br>
 $H_0$: There is no correlation between finished square feet and tax estimated property value.<br>
 $H_a$: There is a correlation between finished square feet and tax estimated property value.<br>
 
@@ -56,17 +56,17 @@ $H_a$: There is a correlation between finished square feet and tax estimated pro
 
 <h3>Data Science Pipeline Used</h3>
 <b><u>acquire.py </b></u> <br>
-acquire data from csv gathered from sql. <br><br>
+acquire data from csv gathered from sql. <br>
 
 <b><u> prepare.py </b></u> <br>
 address missing data <br>
 address outliers <br>
 scale numeric data <br>
-split into train, validate, test <br><br>
+split into train, validate, test <br>
 
 <b><u>explore </b></u> <br>
 plot correlation matrix of all variables<br>
-test each hypothesis<br><br>
+test each hypothesis<br>
 
 <b><u>model</b></u> <br>
 feature engineering to construct new features <br>
